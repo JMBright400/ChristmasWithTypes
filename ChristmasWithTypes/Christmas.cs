@@ -5,10 +5,10 @@ namespace ChristmasWithTypes
     {
         public string[] Presents; 
         public string Santa { get; set; }
-        public int TreeHeight { get; set; } 
+        public int TreeHeight { get; set; }
 
-        
-        public enum Day { Thursday };
+
+        public enum Day { Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday };
 
     }
 }
